@@ -1,0 +1,54 @@
+{
+    "offers": [
+        {
+            "offer_id": "OFF-1000",
+            "offer_title": "Diwali Offer",
+            "offer_description": "Only for next 10 days!",
+            "offer_image": "http:///offers/diwali_celerbration.png",
+            "offer_sort_order": 100,
+            "content": [
+                {
+                    "item_id": "ITEM-1",
+                    "quantity": 10
+                },
+                {
+                    "item_id": "ITEM-2",
+                    "quantity": 1
+                }
+            ],
+            "schedule": {
+                "days_of_week": [
+                    1,
+                    2,
+                    3
+                ],
+                "dates_of_month": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "months_of_year": [
+                    11
+                ]
+            },
+            "target": "age > 30 and installed_days < 5",
+            "pricing": [
+                {
+                    "currency": "coins",
+                    "cost": 1000
+                },
+                {
+                    "currency": "gems",
+                    "cost": 20
+                }
+            ]
+        }
+    ]
+}
